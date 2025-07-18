@@ -22,7 +22,7 @@ The dataset includes:
 - Feature Selection & Correlation Analysis
 - Modeling Approaches
     - Multiple Linear Regression
--Model Evaluation
+- Model Evaluation
     - R² Score
     - RMSE
     - Residual analysis
