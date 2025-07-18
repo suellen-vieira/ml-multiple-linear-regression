@@ -2,18 +2,35 @@
 
 A simple dataset that explores the relationship between advertising expenditures across various channels (TV, radio, and newspaper) and sales performance.
 
-Using this dataset, I apply multiple linear regression analysis using Scikit-Learn to quantify the unique contribution of each advertising channel to sales outcomes. This approach not only helps identify the most effective advertising medium but also provides actionable insights for optimizing marketing budgets.
+This project applies multiple linear regression analysis using Scikit-Learn to quantify the unique contribution of each advertising channel to sales outcomes. This approach not only helps identify the most effective advertising medium but also provides actionable insights for optimizing marketing budgets.
 
-## 📂 Project Structure
 
-multiple-linear-regression/
+## 📊 Dataset Overview
 
-│
+The dataset includes:
 
-├── data/ 
+- TV: Budget spent on TV ads
+- Radio: Budget spent on radio ads
+- Newspaper: Budget spent on newspaper ads
+- Sales: Units sold
 
-├── notebooks/ 
 
-├── README.md 
+## ⚙️ Techniques Used
 
-└── requirements.txt 
+- Exploratory Data Analysis (EDA):
+    - Pairplots, heatmaps and distribution plots
+- Feature Selection & Correlation Analysis
+- Modeling Approaches
+    - Multiple Linear Regression
+    - Regularization L1 and L2
+-Model Evaluation
+    - R² Score
+    - RMSE
+    - Residual analysis
+
+
+## 🎯 Key Goals
+
+- Investigate relationships between advertising spend and product sales.
+- Build linear regression model to predict sales.
+- Provide data-driven insights to guide marketing budget allocation.
